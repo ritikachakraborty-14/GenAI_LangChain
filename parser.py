@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 
-# ✅ Initialize endpoint (no chat wrapper)
+# ✅ Initialize endpoint (no chat wrapper used)
 llm = HuggingFaceEndpoint(
     repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
     task="text-generation",
